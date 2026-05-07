@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/table_row_border">
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:padding="10dp"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvGradeLevel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:padding="10dp"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:text="7" />
+
+    <TextView
+        android:id="@+id/tvPaymentStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:padding="10dp"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:text="Paid" />
+
+    <Button
+        android:id="@+id/btnSeeHere"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="See Here"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1A3A8F"
+        android:textSize="11sp"
+        android:padding="6dp"
+        android:layout_margin="6dp"
+        app:cornerRadius="12dp" />
+
+</TableRow>
